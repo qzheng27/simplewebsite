@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>鼎立拉链配件厂</title>
+    <link href="./images/logo.png" rel="icon" type="image/png" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400&display=swap" rel="stylesheet">    
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div>
+    <div class="topBar">
+        <div class="logoBar">
+            <div class="logo">
+                <img src="./images/logo.png" alt="">
+                <div>
+                    <h1>鼎立拉链五金有限公司</h1>                        
+                    <p>Dingli Zipper Hardware Co. Ltd.</p> 
+                </div>
+            </div>
+        
+            <div id="menuBut">
+                <div class="menuBar"></div>
+                <div class="menuBar"></div>
+                <div class="menuBar"></div>
+            </div>
+            <div class="languageList">
+                <button id="chinese" lang="zh" onclick="changeLang(event, 'zh')">中文</button>
+                <button id="turkish" lang="tr" onclick="changeLang(event, 'tr')">Türkçe</button>
+                <button id="english" lang="en" onclick="changeLang(event, 'en')">English</button>
+            </div>
+        </div>
+
+        <hr class="separator" size="1">
+        <div class="linkList">
+            <button id="homeButton" class="tabHead" onclick="openTab(event, 'home', 'homeButton', 0)">Home</button>
+            <button id="prodButton" class="tabHead" onclick="openTab(event, 'products', 'prodButton', 0)">Products</button>
+            <button id="picButton" class="tabHead" onclick="openTab(event, 'pictures', 'picButton', 0)">Pictures</button>
+            <button id="conButton" class="tabHead" onclick="openTab(event, 'contact', 'conButton', 0)">Contact Us</button>
+
+        </div>
+    </div>
+
+        <main id="en" class="main">
+            <div class="home tabPage">
+                <div class="intro">
+                    <!-- <img id="factoryPic" class="picture" src="./images/factory. jpg" alt="picture of the factory"> -->
+                    <p class="motto">"Honesty is key and quality brings success"</p>
+                    <p class="pg">Wenzhou Dingli Zipper Hardware Co. Ltd. was renamed from Wenzhou Wanfeng Zipper Co. Ltd. which began operating on March 13, 2013 with a registered capital of 1 million yuan.</p>
+                    <!-- <p>Since the establishment of the factory, we as a company have adhered to the work policy of "honesty is the key, and quality brings success".</p> -->
+                </div>
+                <div class="desc"><p>Who we are & what we do</p></div>
+                <div class="grid">
+                <div>
+                    <img class="picture" src="./images/puller.jpg" alt="picture of slider">
+                    <p>We are committed to the production and development of metal sliders and pullers</p>
+                </div>
+                <div>
+                    <img class="picture" src="./images/machine1.jpg" alt="picture of a working machine">
+                    <p>Pursue an excellent quality</p></div>
+                <div>
+                    <img class="picture" src="./images/style1.jpg" alt="picture of a shirt">
+                    <p>Advocate first class style</p></div>
+                <div>
+                    <img class="picture" src="./images/maintain.jpg" alt="picture of a machine">
+                    <p>Diligently maintain the best quality in the products</p></div>
+                <div>
+                    <img class="picture" src="./images/crystal.jpg" alt="picture of crystal">
+                    <p>Strive for perfection in every detail</p></div>
+                <div>
+                    <img class="picture" src="./images/innovation.jpg" alt="picture of two people discussing">
+                    <p>Continuously optimize the structure of the industry and support product innovation</p></div>
+                <div>
+                    <img class="picture" src="./images/globe1.jpg" alt="picture of globe">
+                    <p>Actively explore the international market</p></div>
+                <div>
+                    <img class="picture" src="./images/meeting.jpg" alt="">
+                    <p>Build international and domestic networks</p></div>
+                </div>
+                <div class="welc">
+                    <p class="welctxt">We wholeheartedly welcome colleagues all around the world to establish and develop business relationships with us, sincerely cooperate, collaborate, and open up the future!</p>
+                </div>
+            </div>
+            <div class="products tabPage">
+                <h2>Products</h2>
+                <p class="pg">This page is under preparation.</p>
+            </div>
+            <div class="pictures tabPage">
+                <h2>Pictures</h2>
+                <p class="pg">This page is under preparation.</p>
+            </div>
+            <div class="contact tabPage">
+                <h2>Contact Information</h2>
+                <p class="pg"><ul>
+                        <li>WeChat:</li>
+                        <li>WhatsApp:</li>
+                    </ul>
+                </p>
+            </div>
+        </main>
+        
+        <main id="tr" class="main">
+            <div class="home tabPage">
+                <div class="intro">
+                    <!-- <img id="factoryPic" class="picture" src="./images/factory. jpg" alt="picture of the factory"> -->
+                    <p class="motto">"Dürüstlük esastır ve kalite başarıya yol açar"</p>
+                    <p class="pg"> 1 milyon kayıtlı sermaye ile 13 Mart 2013'te üretime geçen Wenzhou Wanfeng Zipper Co. Ltd., Wenzhou Dingli Zipper Hardware Co. Ltd. olarak yeniden adlandırılmıştır.</p>
+                    <!-- <p>Since the establishment of the factory, we as a company have adhered to the work policy of "honesty is the key, and quality brings success".</p> -->
+                </div>
+                <div class="desc"><p>Kimiz & Ne yapıyoruz</p></div>
+                <div class="grid">
+                <div>
+                    <img class="picture" src="./images/puller.jpg" alt="picture of slider">
+                    <p>Kendimizi kürsör ve elcik üretimine ve geliştirilmesine adadık.</p>
+                </div>
+                <!-- <div>
+                    <img id="pullerPic" class="picture" src="./images/puller.jpg" alt="picture of puller">
+                    <p>Produce and develop puller</p>
+                </div> -->
+                <div>
+                    <img class="picture" src="./images/machine1.jpg" alt="picture of a working machine">
+                    <p>Mükemmel kalitenin arayışı içindedir</p></div>
+                <div>
+                    <img class="picture" src="./images/style1.jpg" alt="picture of a shirt">
+                    <p>Birinci sınıf kaliteyi destekler</p></div>
+                <div>
+                    <img class="picture" src="./images/maintain.jpg" alt="picture of a machine">
+                    <p>Ürünlerde en iyi kaliteyi özenle sürdürür</p>
+                </div>
+                <div>
+                    <img class="picture" src="./images/crystal.jpg" alt="picture of crystal">
+                    <p>Her detayda mükemmellik için çabalar</p>
+                </div>
+                <div>
+                    <img class="picture" src="./images/innovation.jpg" alt="picture of two people discussing">
+                    <p>Devamlı olarak endüstri yapısını optimize eder ve ürün inovasyonunu destekler
+                    </p></div>
+                <div>
+                    <img class="picture" src="./images/globe1.jpg" alt="picture of globe">
+                    <p>
+                        Aktif bir şekilde uluslararası piyasayı keşfeder
+                    </p></div>
+                <div>
+                    <img class="picture" src="./images/meeting.jpg" alt="">
+                    <p>Yerli ve yabancı bağlantılar kurar</p>
+                    </div>
+                </div>
+                <div class="welc">
+                    <p class="welctxt">Birlikte iş bağlantıları kurmak ve geliştirmek, içtenlikle beraber çalışmak, işbirliği yapmak, ve geleceği açmak için dünyanın her yerindeki bütün meslektaşlarımız, tüm içtenliğimizle hepiniz hoş geldiniz!</p>
+                </div>
+            </div>
+            <div class="products tabPage">
+                <h2>Ürünlerimiz</h2>
+                <p class="pg">Bu sayfam hazırlanma aşamasındadır.</p>
+            </div>
+            <div class="pictures tabPage">
+                <h2>Fotoğraflarımız</h2>
+                <p class="pg">Bu sayfam hazırlanma aşamasındadır.</p>
+            </div>
+            <div class="contact tabPage">
+                <h2>İletişim Bilgileri</h2>
+                <p class="pg"><ul>
+                        <li>WeChat:</li>
+                        <li>WhatsApp:</li>
+                    </ul>
+                </p>
+            </div>
+        </main>
+        <main id="zh" class="main">
+            <div class="home tabPage">
+                <div class="intro">
+                    <!-- <img id="factoryPic" class="picture" src="./images/factory. jpg" alt="picture of the factory"> -->
+                    <p class="motto">"以诚为本, 以质取胜"</p>
+                    <p class="pg">温州市鼎立拉链五金有限公司，由温州市万丰拉链有限公司改名，原厂於2013年03月14日投入生产，注册资本为100（万元）。</p>
+                    <!-- <p>Since the establishment of the factory, we as a company have adhered to the work policy of "honesty is the key, and quality brings success".</p> -->
+                </div>
+                <div class="desc"><p>我们是谁 & 我们所做的</p></div>
+                <div class="grid">
+                <div>
+                    <img class="picture" src="./images/puller.jpg" alt="picture of slider">
+                    <p>公司致力于金属拉头和拉片的生产和开发</p>
+                </div>
+                <!-- <div>
+                    <img id="pullerPic" class="picture" src="./images/puller.jpg" alt="picture of puller">
+                    <p>Produce and develop puller</p>
+                </div> -->
+                <div>
+                    <img class="picture" src="./images/machine1.jpg" alt="picture of a working machine">
+                    <p>追求卓越品质</p></div>
+                <div>
+                    <img class="picture" src="./images/style1.jpg" alt="picture of a shirt">
+                    <p>崇尚一流款式</p></div>
+                <div>
+                    <img class="picture" src="./images/maintain.jpg" alt="picture of a machine">
+                    <p>用心去维护产品的品质</p></div>
+                <div>
+                    <img class="picture" src="./images/crystal.jpg" alt="picture of crystal">
+                    <p>对每一个细微之处都力求完美</p></div>
+                <div>
+                    <img class="picture" src="./images/innovation.jpg" alt="picture of two people discussing">
+                    <p>不断优化产业的结构和产品的创新</p></div>
+                <!-- <div></div> -->
+                <div>
+                    <img class="picture" src="./images/globe1.jpg" alt="picture of globe">
+                    <p>积极开拓国际市场</p></div>
+                <div>
+                    <img class="picture" src="./images/meeting.jpg" alt="">
+                    <p>广结海内外朋友</p></div>
+                </div>
+                <div class="welc">
+                    <p class="welctxt">竭诚欢迎海内外同行与我们建立和发展业务往来，精诚合作、携手共进，开拓未来!</p>
+                </div>
+            </div>
+            <div class="products tabPage">
+                <h2>我们的產品</h2>
+                <p>在准备之中</p>
+            </div>
+            <div class="pictures tabPage">
+                <h2>我们的图片...</h2>
+                <p>在准备之中</p>
+            </div>
+            <div class="contact tabPage">
+                <h2>联系:</h2>
+                
+                <p> <b>法人:</b> 
+                    <ul>
+                        <li>电话: 139xxxxxx</li>
+                    </ul>
+                </p>
+            </div>
+        </main>
+
+        
+        <script src="script.js"></script>
+
+</body>
+
+</html>
